@@ -31,6 +31,6 @@ spec:
     spec:
       containers:
       - name: container1
-        image: gcr.io/kuar-demo/kuard-amd64:blue
+        image: gcr.io/google-samples/hello-app:2.0
         ports:
         - containerPort: 8080
